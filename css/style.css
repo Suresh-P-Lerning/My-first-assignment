@@ -161,11 +161,13 @@
     justify-content: space-between;
     width:1200PX;    
     margin: 0 auto;
+    
 
 }
 .social_wrap{
     width:485px;
     margin-top: 130px;
+    margin-bottom: 90px;
 }
 .social_head{
     color:#fff;
@@ -213,3 +215,4 @@
     border:0;
     border-radius: 10px;
 }
+/* Css End */
