@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    ;
+}
+
+/* -------Header Style--------- */
+
+#header {
+    background-image: url(../images/banner/banner3.png);
+    background-size: 100%;
+    min-height: 800px;
+}
+
+.head-wrapper {
+    width: 525px;
+    position: left;
+    padding-left: 845px;
+    padding-top: 216px;
+}
+
+.head-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+.head-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 24px;
+    text-align: right;
+    width: 494px;
+    color: #FFFFFF;
+}
+
+.primary-btn {
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    border:none;
+    border-radius: 10px;
+    margin-left: 340px;
+    margin-top: 25px;
+    font-size:20px;
+    color:#005FAC;
+}
