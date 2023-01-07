@@ -19,9 +19,9 @@
 
 .head-wrapper {
     width: 525px;
-    position: left;
-    padding-left: 845px;
-    padding-top: 216px;
+    position: absolute;
+    right:100px;
+    top:100px;
 }
 
 .head-title {
@@ -38,9 +38,11 @@
     font-weight: 400;
     line-height: 26px;
     margin-top: 24px;
-    text-align: right;
-    width: 494px;
+    text-align: right;    
     color: #FFFFFF;
+    width:400px;
+    right:0;
+    position: absolute;
 }
 
 .primary-btn {
@@ -51,9 +53,10 @@
     border:none;
     border-radius: 10px;
     margin-left: 340px;
-    margin-top: 25px;
+    margin-top: 115px;
     font-size:20px;
     color:#005FAC;
+    
 }
 
 /* Section Part */
@@ -88,6 +91,9 @@
 }
 .list_item_wraper{
 
+}
+.fa-solid{
+    color:rgb(255, 128, 0);
 }
 .list_item_wraper > p{
     color:#444343;
@@ -208,11 +214,11 @@
     color:#fff;
     text-decoration: none;
     background-color: #005FAC;
+
     
 }
 .form_wrap button{
     margin-top: 15px;   
-    border:0;
-    border-radius: 10px;
+    border:0;     
 }
 /* Css End */
