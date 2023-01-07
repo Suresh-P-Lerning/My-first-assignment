@@ -12,7 +12,7 @@
 #header {
     background-image: url(../images/banner/banner3.png);
     background-size: 100%;
-    min-height: 800px;
+    min-height: 640px;
     background-repeat:no-repeat;
     background-position: top;
 }
@@ -56,8 +56,40 @@
     margin-top: 115px;
     font-size:20px;
     color:#005FAC;
+}
+/* Nav Style */
+nav{
+   background-color: darkslategray;
+
+  
+}
+.navigation-wrapper{
     
 }
+.navigation-wrapper ul{
+    display: flex;  
+    align-items: center;
+    margin-left: 200px;    
+}
+.navigation-wrapper ul li{
+    list-style: none;
+    border-right:2px solid gray;
+    border-left:1.5px solid rgb(60, 60, 60);
+}
+.navigation-wrapper ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 10px 25px;
+    background-color: darkslategray;
+    display: inline-block;
+    transition:1s ease;
+}
+.navigation-wrapper ul li:hover a{    
+    background-color: rgb(176, 255, 255);
+    color: #151414;
+
+}
+
 
 /* Section Part */
 .main{
@@ -164,7 +196,7 @@
 }
 .contact_wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width:1200PX;    
     margin: 0 auto;
     
